@@ -16,4 +16,4 @@ libraryDependencies += "org.scala-js" %% "scalajs-env-jsdom-nodejs" % "1.0.0"
 
 resolvers += Resolver.jcenterRepo
 
-addSbtPlugin("net.aichler" % "sbt-jupiter-interface" % "0.8.3")
+addSbtPlugin("net.aichler" % "sbt-jupiter-interface" % "0.8.4")
