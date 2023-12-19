@@ -11,7 +11,7 @@ ThisBuild / libraryDependencySchemes += "org.scala-lang.modules" %% "scala-xml" 
 addSbtPlugin("com.typesafe.sbt" % "sbt-twirl" % "1.4.2")
 addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "4.2.1")
 
-addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.4.3")
+addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.4.7")
 libraryDependencies += "org.scala-js" %% "scalajs-env-jsdom-nodejs" % "1.0.0"
 
 resolvers += Resolver.jcenterRepo
