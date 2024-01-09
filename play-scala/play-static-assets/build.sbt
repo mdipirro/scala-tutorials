@@ -10,7 +10,7 @@ enablePlugins(SbtWeb)
 scalaVersion := "2.13.11"
 
 libraryDependencies += guice
-libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % Test
+libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.1" % Test
 libraryDependencies += "org.webjars.bower" % "bootstrap-sass" % "3.3.6"
 
 // See https://github.com/sbt/sbt-js-engine/issues/68
