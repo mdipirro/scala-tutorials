@@ -84,7 +84,7 @@ lazy val scala_core_7 = (project in file("scala-core-7"))
     libraryDependencies += "org.rogach" %% "scallop" % "5.0.0",
     libraryDependencies += "org.backuity.clist" %% "clist-core" % "3.5.1",
     libraryDependencies += "org.backuity.clist" %% "clist-macros" % "3.5.1" % "provided",
-    libraryDependencies += "args4j" % "args4j" % "2.33"
+    libraryDependencies += "args4j" % "args4j" % "2.37"
   )
 
 lazy val scala_core_8 = (project in file("scala-core-8"))
