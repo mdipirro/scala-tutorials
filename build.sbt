@@ -434,7 +434,7 @@ lazy val cats_effects = (project in file("cats-effects"))
   .settings(
     name := "cats-effects",
     libraryDependencies += catsEffect,
-    libraryDependencies += "org.typelevel" %% "munit-cats-effect-3" % "1.0.7" % Test,
+    libraryDependencies += "org.typelevel" %% "munit-cats-effect" % "2.0.0" % Test,
     libraryDependencies += "junit" % "junit" % "4.13.2" % Test
   )
 
