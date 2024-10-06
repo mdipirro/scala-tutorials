@@ -65,7 +65,7 @@ lazy val scala_core_5 = (project in file("scala-core-5"))
     libraryDependencies += scalaReflection,
     libraryDependencies += "joda-time" % "joda-time" % "2.12.5",
     libraryDependencies += "org.joda" % "joda-convert" % "2.2.3",
-    libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.32.0"
+    libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.34.0"
   )
 
 lazy val scala_core_6 = (project in file("scala-core-6"))
