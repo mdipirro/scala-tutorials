@@ -64,7 +64,7 @@ lazy val scala_core_5 = (project in file("scala-core-5"))
     libraryDependencies += jUnitInterface,
     libraryDependencies += scalaReflection,
     libraryDependencies += "joda-time" % "joda-time" % "2.12.5",
-    libraryDependencies += "org.joda" % "joda-convert" % "2.2.3",
+    libraryDependencies += "org.joda" % "joda-convert" % "2.2.4",
     libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.32.0"
   )
 
