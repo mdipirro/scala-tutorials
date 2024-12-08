@@ -252,7 +252,7 @@ lazy val scala_libraries = (project in file("scala-libraries"))
       "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
       "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
       catEffectTest,
-      "org.typelevel" %% "cats-effect-testing-scalatest" % "1.5.0" % Test
+      "org.typelevel" %% "cats-effect-testing-scalatest" % "1.6.0" % Test
     )
   )
 
