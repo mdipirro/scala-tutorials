@@ -138,7 +138,7 @@ lazy val scala_core_collections = (project in file("scala-core-collections"))
   .settings(
     name := "scala-core-collections",
     libraryDependencies ++= Seq(
-      "org.scala-lang.modules" %% "scala-parallel-collections" % "1.0.4"
+      "org.scala-lang.modules" %% "scala-parallel-collections" % "1.1.0"
     ) ++ scalaTestDeps
   )
 
