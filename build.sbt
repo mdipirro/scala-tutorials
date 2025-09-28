@@ -356,7 +356,7 @@ lazy val scala_libraries_4 = (project in file("scala-libraries-4"))
       scalaReflection % Provided,
       "org.tpolecat" %% "skunk-core" % "0.6.0",
       logback,
-      "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
+      "com.typesafe.scala-logging" %% "scala-logging" % "3.9.6",
       "org.typelevel" %% "cats-core" % "2.10.0"
     ),
     libraryDependencies ++= Seq(
