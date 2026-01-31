@@ -483,7 +483,7 @@ lazy val scala3_libraries = (project in file("scala3-libraries"))
     scalaVersion := scala3Version,
     name := "scala3-libraries",
     libraryDependencies ++= Seq(
-      "com.github.japgolly.clearconfig" %% "core" % "3.1.0",
+      "com.github.japgolly.clearconfig" %% "core" % "3.3.0",
       "org.scalameta" %% "munit" % "0.7.29" % Test
     )
   )
